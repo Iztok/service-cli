@@ -65,7 +65,7 @@ sudo chown $(id -u):$(id -g) -R ~
 # Enable xdebug
 if [[ "$XDEBUG_ENABLED" == "1" ]]; then
   echo "Enabling xdebug..."
-  sudo php5enmod xdebug
+  sudo phpenmod xdebug
 fi
 
 # Execute passed CMD arguments
