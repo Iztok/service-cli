@@ -95,6 +95,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
     php5-xdebug \
     php5-ssh2 \
     php5-gnupg \
+    php-bcmath \
     blackfire-php \
     # Cleanup
     && DEBIAN_FRONTEND=noninteractive apt-get clean && \
